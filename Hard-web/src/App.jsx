@@ -80,7 +80,7 @@ const App = () => {
   };
 
   const handleSortChange = () => {
-    sortTasks(); // we only have one sorting criteria (date), so we can directly call sortTasks
+    sortTasks();
   };
 
   const handleToggleDarkMode = (value) => {
@@ -140,7 +140,7 @@ const App = () => {
           />
         ) : (
           <div>
-            <p>Welcome, {user.name}!</p> {/* Display user name */}
+            <p>Welcome {user.name}!</p> {/* Display user name */}
             <button onClick={() => setUser(null)}>Logout</button> {/* Logout button */}
           </div>
         )}
