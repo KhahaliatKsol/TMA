@@ -120,7 +120,7 @@ const App = () => {
         <select id="language" value={language} onChange={handleLanguageChange}>
           <option value="en">English</option>
           <option value="am">አማርኛ</option>
-          <option value="es">espanol</option>
+          <option value="es">Espanol</option>
           <option value="fr">French</option>
         </select>
       </div>
