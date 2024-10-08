@@ -140,7 +140,7 @@ const App = () => {
           />
         ) : (
           <div>
-            <p>Hello {user.name}!</p> {/* Display user name */}
+            <p>Welcome {user.name}!</p> {/* Display user name */}
             <button onClick={() => setUser(null)}>Logout</button> {/* Logout button */}
           </div>
         )}
